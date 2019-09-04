@@ -33,6 +33,7 @@ function TicketList(){
       <style jsx>{`
         .red-text {
           color: red;
+          padding-top: 100px;
         }
         `}</style>
     </div>
