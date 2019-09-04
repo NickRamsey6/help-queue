@@ -2,7 +2,7 @@ import React from 'react';
 
 function NewTicketForm(){
   return (
-    <div>
+    <div className="new-form">
       <form>
         <input
           type='text'
@@ -17,6 +17,11 @@ function NewTicketForm(){
           placeholder='Describe your issue.'/>
         <button type='submit'>Help!</button>
       </form>
+      <style jsx>{`
+        .new-form {
+          padding-top:100px;
+        }
+        `}</style>
     </div>
   );
 }
