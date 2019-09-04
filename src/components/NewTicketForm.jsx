@@ -7,23 +7,40 @@ function NewTicketForm(){
         <input
           type='text'
           id='names'
-          placeholder='Pair Names'/>
+          placeholder='Please enter your name'/>
+          <br/>
+          <br/>
         <input
           type='text'
           id='location'
-          placeholder='Location'/>
+          placeholder='Please enter your location'/>
+          <br/>
+          <br/>
         <textarea
           id='issue'
-          placeholder='Describe your issue.'/>
-        <button type='submit'>Help!</button>
+          placeholder='Give a brief description of issue you are having.'/>
+          <br/>
+        <button class="btn btn-danger pull-right" type='submit'>Help!</button>
       </form>
       <style jsx>{`
         .new-form {
           padding-top:100px;
+          text-align: center;
+        }
+        input {
+          width:50%;
+          padding-bottom: 10px;
+
+        }
+        #issue {
+          width:50%;
+          padding-bottom: 80px;
         }
         `}</style>
     </div>
   );
 }
+
+
 
 export default NewTicketForm;
