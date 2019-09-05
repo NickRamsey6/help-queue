@@ -8,18 +8,18 @@ function NewTicketForm(){
           type='text'
           id='names'
           placeholder='Please enter your name'/>
-          <br/>
-          <br/>
+        <br/>
+        <br/>
         <input
           type='text'
           id='location'
           placeholder='Please enter your location'/>
-          <br/>
-          <br/>
+        <br/>
+        <br/>
         <textarea
           id='issue'
           placeholder='Give a brief description of issue you are having.'/>
-          <br/>
+        <br/>
         <button class="btn btn-danger pull-right" type='submit'>Help!</button>
       </form>
       <style jsx>{`
